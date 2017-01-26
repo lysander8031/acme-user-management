@@ -1,0 +1,14 @@
+Add following features to Account Management
+
+changePassword
+closeAccount
+verifyEmail
+upgradeMembershipPlan
+editAccountDetails
+
+Password Change
+
+strong 	password	password - OK
+strong  password    nomatch  - Fail
+strong  nomatch     password - fail
+weak    password    password - fail
